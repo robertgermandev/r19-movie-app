@@ -1,12 +1,52 @@
-# React + Vite
+# 🎬 Movie Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek movie discovery web app built with **React 19**, **TMDB API**, and **Appwrite**. Search for your favorite movies, see the ratings of each movie and also the trending list based on users searches, all in a modern, responsive interface.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔍 Real-time movie search
+- 🔥 Trending list
+- 💡 Clean, responsive UI built with React 19
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React 19 (with modern hooks & features)
+- **API:** [TMDB (The Movie Database)](https://www.themoviedb.org/documentation/api)
+- **Backend:** Appwrite (auth, database, functions)
+
+## 📦 Getting Started
+
+### 1. Clone the Repo
+```bash
+git clone https://github.com/robertgermandev/r19-movie-app.git
+cd r9-movie-app
+```
+
+### 2. Install Dependencies
+```bash
+npm install
+```
+
+### 3. Set Up Environment Variables
+Create a `.env.local` file in the root directory and add your credentials:
+
+```env
+VITE_TMDB_API_KEY=your_tmdb_api_key
+VITE_APPWRITE_PROJECT_ID=your_appwrite_project_id
+VITE_APPWRITE_DATABASE_ID=your_appwrite_database_id
+VITE_APPWRITE_COLLECTION_ID=your_appwrite_collection_id
+VITE_APPWRITE_endpoint=your_appwrite_endpoint
+```
+
+### 4. Run the App
+```bash
+npm run dev
+```
+
+## 📄 License
+
+MIT License
+
+---
+
+Made with ❤️ using React & Appwrite.
